@@ -1,6 +1,6 @@
 
 body {
-	overflow: hidden;
+	font-family: 'Ubuntu', sans-serif;
 }
 header {
 	background-image: url("../images/header.png");
@@ -11,6 +11,8 @@ header {
 .nav-style {
 		background-color: rgba(4,112,8,0.4);
 		position: fixed-top;
+		font-size: 1.2em;
+		font-weight: 600;
 		
 }
 @media(min-width:768px) {
@@ -19,7 +21,7 @@ header {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-		background-color: rgba(4,112,8,0.5);
+		background-color: rgba(4,112,8,0.4);
 		border: none;
 		min-height:60px;
 		height: 60px;
