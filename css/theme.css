@@ -8,8 +8,20 @@ header {
 	height: 750px;
 	
 }
+h1 {
+	text-align: center;
+	font-weight: 600;
+}
+h3 {
+	text-align: center;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
+h4 {
+	font-weight: lighter;
+}
 .nav-style {
-		background-color: rgba(4,112,8,0.4);
+		background-color: rgba(4,112,8,0.3);
 		position: fixed-top;
 		font-size: 1.2em;
 		font-weight: 600;
@@ -21,7 +33,7 @@ header {
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
-		background-color: rgba(4,112,8,0.4);
+		background-color: rgba(4,112,8,0.3);
 		border: none;
 		min-height:60px;
 		height: 60px;
@@ -29,3 +41,18 @@ header {
     }
 
 }
+.inner-space {
+	align: center;
+	width: 100px;
+	height: 1px;
+	border: none;
+	background-color: #333333;
+}
+.circular {
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
