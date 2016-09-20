@@ -55,4 +55,9 @@ h4 {
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 }
+nav>li>a:hover {
+	color: #fff;
+	background-color: #e95420;
+	height: 40px;
+}
 
