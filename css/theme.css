@@ -14,8 +14,7 @@ header {
 }
 h1 {
 	text-align: center;
-	font-weight: 600;
-	color: #292929;
+	font-weight: 500;
 }
 h3 {
 	text-align: center;
@@ -24,6 +23,7 @@ h3 {
 }
 h4 {
 	font-weight: lighter;
+	text-align: center;
 }
 .nav-style {
 		background: linear-gradient(#5d5d5d, #3b3b3b);
@@ -73,7 +73,11 @@ nav>li>a:hover {
 	background-color: #e95420;
 	height: 40px;
 }
-.miniature {
-	width: 120px;
-	height: 100px;
+.div-background {
+	background: linear-gradient(#762572,#ed3146);
+	color: #fff;
+}
+.img-align {
+	margin: auto;
+	box-shadow: 5px 5px 5px rgba(41,41,41,0.5);
 }
