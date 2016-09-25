@@ -85,9 +85,6 @@ nav>li>a:hover {
 	background-color: #e95420;
 	color: #fff;
 }
-.prop {
-	background-color: #fff !important;
-}
 
 .second-effect .mask {
    opacity: 0;
@@ -157,6 +154,7 @@ nav>li>a:hover {
 .view img {
    display: block;
    position: relative;
+   
 }
 .view a.info {
    background:url(../images/link.png) center no-repeat;
