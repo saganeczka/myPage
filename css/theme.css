@@ -88,12 +88,6 @@ nav>li>a:hover {
 .prop {
 	background-color: #fff !important;
 }
-.main{
-	position:relative;
-    width:680px;
-    margin: 0 auto;
-	padding:20px 0;
-}
 
 .second-effect .mask {
    opacity: 0;
